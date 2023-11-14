@@ -11,6 +11,9 @@ stems, root words, prefixes, and suffixes.
 
 # How we will make synthetic morphological grammar mistakes
 
+## 1. method (käänded, pöörded):
 1. We take a random word and get its base form using estlnk
 2. We get all the other possible word forms
 3. Choose a random one (that does not make sense in the sentence)
+
+## 2. method (kokku-lahkukirjutamine)
