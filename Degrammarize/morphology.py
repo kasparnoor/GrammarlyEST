@@ -6,5 +6,6 @@ def morph(list_of_words:list[str]):
 
 sentence = Text(get_sentences()["1"])
 #print(repunctuate(sentence))
-print(sentence.morph_analysis[0:4, 'root'])
+sentence.tag_layer()
+print(sentence.morph_analysis)
 
